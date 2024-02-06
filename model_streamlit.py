@@ -121,7 +121,7 @@ st.write(
 )
 
 # Ввод данных с помощью виджетов Streamlit
-age = st.number_input("Введите ваш возраст", min_value=0, max_value=99, value=30)
+age = st.number_input("Введите ваш возраст", min_value=0, max_value=120, value=30)
 gender = st.selectbox("Выберите ваш пол (M - male, F - female)", ("M", "F"))
 chest_pain_type = st.selectbox(
     "Выберите тип боли в груди (TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic)",
